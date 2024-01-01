@@ -46,7 +46,7 @@ function AboutMe() {
                     {`I also love exploring mathematics and machine learning through creative projects.`}
                 </p>
                 <p>
-                    {`Aside from computing, I also love digital art and video editing.`}
+                    {`Aside from computing, I'm usually working on improving my digital art and video editing skills.`}
                 </p>
                 <p>{`Feel free to connect with me using the links below! :D`}</p>
             </div>
