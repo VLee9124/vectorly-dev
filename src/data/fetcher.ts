@@ -1,3 +1,10 @@
+type IconDescriptor = {
+    rel: string
+    type: string
+    sizes: string
+    url: string
+}
+
 type Site = {
     url: string
     title: string
