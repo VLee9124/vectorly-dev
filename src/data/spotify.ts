@@ -1,3 +1,5 @@
+import { env } from 'process'
+
 const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID
 const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET
 const REFRESH_TOKEN = process.env.SPOTIFY_REFRESH_TOKEN
@@ -16,7 +18,7 @@ const getAccessToken = async () => {
         },
         body: new URLSearchParams({
             grant_type: 'refresh_token',
-            refresh_token: REFRESH_TOKEN,
+            refresh_token: REFRESH_TOKEN!,
         }),
     })
 
