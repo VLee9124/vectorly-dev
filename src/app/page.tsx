@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Signature from './Signature'
+import Signature from '@/components/Signature'
 import { linkData } from '@/data/links'
+import NowPlaying from '@/components/now-playing'
 
 export default function Home() {
     return (
@@ -10,6 +11,7 @@ export default function Home() {
             <AboutMe />
             <Contacts />
             <Signature />
+            <NowPlaying />
         </main>
     )
 }
