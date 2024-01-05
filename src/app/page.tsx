@@ -10,6 +10,7 @@ export default function Home() {
             <Introduction />
             <AboutMe />
             <Contacts />
+            <Posts />
             <Signature />
             <NowPlaying />
         </main>
@@ -29,7 +30,7 @@ function Introduction() {
             </div>
             <div className="flex flex-col">
                 <h1 className="text-gray-800 font-semibold">Victor Lee</h1>
-                <p className="text-gray-400">Software Engineer</p>
+                <p className="text-gray-400">Software Engineer 🧑‍💻</p>
             </div>
         </header>
     )
@@ -40,7 +41,7 @@ function AboutMe() {
         <div className="flex flex-col gap-4">
             <p className="text-gray-500">About me</p>
             <div className="flex flex-col text-neutral-800 gap-4">
-                <p>{`Hi! I'm Victor.`}</p>
+                <p>{`Hi! I'm Victor. 🌿`}</p>
                 <p>
                     {`I'm currently studying Computer Science + Mathematics @ UC. Currently working on a few web development projects including this site.`}
                 </p>
@@ -48,15 +49,14 @@ function AboutMe() {
                     {`I also love exploring mathematics and machine learning through creative projects.`}
                 </p>
                 <p>
-                    {`Aside from computing, I'm usually working on improving my digital art and video editing skills.`}
+                    {`Aside from computing, I'm working on improving my digital art 🖼️ and video editing skills 🎥.`}
                 </p>
-                <p>{`Feel free to connect with me using the links below! :D`}</p>
+                <p>{`Want to collaborate or connect? Feel free to use the links below! :D`}</p>
             </div>
         </div>
     )
 }
 
-// TODO: Add email, github, and linkedin.
 function Contacts() {
     return (
         <div className="flex flex-col gap-4">
@@ -87,6 +87,13 @@ function Contacts() {
                     Github
                 </a>
             </div>
+        </div>
+    )
+}
+function Posts() {
+    return (
+        <div className="flex flex-col gap-4">
+            <p className="text-gray-500">Recent Posts</p>
         </div>
     )
 }
