@@ -43,13 +43,7 @@ function AboutMe() {
             <div className="flex flex-col text-neutral-800 gap-4">
                 <p>{`Hi! I'm Victor. 🌿`}</p>
                 <p>
-                    {`I'm currently studying Computer Science + Mathematics @ UC. Currently working on a few web development projects including this site.`}
-                </p>
-                <p>
-                    {`I also love exploring mathematics and machine learning through creative projects.`}
-                </p>
-                <p>
-                    {`Aside from computing, I'm working on improving my digital art 🖼️ and video editing skills 🎥.`}
+                    {`I'm currently studying Computer Science + Mathematics @ UC. Currently working on a few web development  + machine learning projects.`}
                 </p>
                 <p>{`Want to collaborate or connect? Feel free to use the links below! :D`}</p>
             </div>
